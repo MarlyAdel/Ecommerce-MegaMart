@@ -1,0 +1,36 @@
+.shop-options select{
+    padding: 7px 15px;
+    border: 1px solid var(--main-color);
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: white;
+}
+.shop-options select:focus{
+    outline: none  ;
+}
+.search-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid var(--main-color);
+    border-radius: 5px;
+    padding-right: 12px;
+    cursor: pointer;
+}
+.search-box input{
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 7px 15px;
+}
+.search-box span{
+    color: var(--main-color);
+}
+
+@media(max-width: 768px){
+    .shop-options{
+        margin-bottom: 20px;
+    }
+}

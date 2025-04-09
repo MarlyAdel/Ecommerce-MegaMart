@@ -1,0 +1,57 @@
+.products-details{
+   margin-top: 80px;
+   padding-top: 50Px; 
+}
+.products-details h2{
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+.productDetails-img{
+    width: 100%;
+}
+.product-rating span i{
+    color: rgb(230, 113, 24);
+}
+.product-rating p span{
+    color: rgb(230, 113, 24);
+    font-weight: 700;
+}
+.btn-custom{
+    transition: all .2s;
+}
+.btn-custom:hover{
+    transform: scale(1.1);
+}
+.tabs{
+    cursor: pointer;
+}
+.active-tabs{
+    font-weight: 700;
+    color: rgb(18, 18, 93);
+}
+.review-wrapper ul li span{
+    color: rgb(230, 113, 24);
+    font-weight: 600;
+}
+.name-review{
+    text-decoration: none;
+}
+.form-review{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+.form-group input, textarea{
+    width: 100%;
+    border: 1px solid var(--main-color);
+    border-radius: 5px;
+    padding: 8px 20px;
+}
+.form-group input:focus , .form-group textarea:focus{
+    outline: none;
+}
+.form-icons{
+    color: rgb(230, 113, 24);
+    font-weight: 600;
+    cursor: pointer;
+}

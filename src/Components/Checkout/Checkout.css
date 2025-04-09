@@ -1,0 +1,31 @@
+.billing-form .checkout-form input{
+  border: 1px solid var(--main-color);
+  padding: 5px 10px;
+  border-radius: 6px;
+}
+.checkout-card{
+    background-color: var(--main-color);
+    color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.checkout-card h4,h6{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+.checkout-card h4{
+    border-top: 2px solid rgba(221, 221, 221, 0.253);
+    padding: 15px 0;
+}
+.checkout-btn{
+    border-radius: 6px;
+    font-weight: 600;
+}
+@media (max-width: 768px){
+    .checkout-card{
+        margin-bottom: 30px;
+    }
+}

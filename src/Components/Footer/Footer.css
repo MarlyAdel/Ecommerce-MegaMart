@@ -1,0 +1,13 @@
+.footer{
+    background-color: var(--main-color);
+    padding: 33px 0;
+}
+.footer1 , .footer2 , .footer3 , .footer4 h4{
+    color: white;
+}
+.footer-content p {
+    color: #918d8d;
+}
+ .color-footer{
+    color: #918d8d;
+}

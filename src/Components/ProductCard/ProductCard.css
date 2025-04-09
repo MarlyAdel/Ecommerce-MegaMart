@@ -1,0 +1,22 @@
+.card-bottom i{
+    background-color: var(--main-color);
+    padding: 10px;
+    border-radius: 50%;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.card-bottom i:hover{
+    transform: scale(1.1);
+}
+.product-img{
+    cursor: pointer;
+    transition:all 0.2s;
+}
+.product-img:hover{
+    transform: scale(1.1);
+}
+.head-card{
+    cursor: pointer;
+}

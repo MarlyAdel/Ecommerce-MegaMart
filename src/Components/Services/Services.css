@@ -1,0 +1,54 @@
+.servies-item1{
+    background-color: pink;
+    padding: 12px;
+    border-radius: 5px;
+    transition: all .2s;
+    cursor: pointer;
+}
+.servies-item2 {
+    background-color: rgb(107, 186, 132);
+    padding: 12px;
+    border-radius: 5px;
+    transition: all .2s;
+    cursor: pointer;
+}
+.servies-item3 {
+    background-color: peru;
+    padding: 12px;
+    border-radius: 5px;
+    transition: all .2s;
+    cursor: pointer;
+}
+.servies-item4 {
+    background-color: tan;
+    padding: 12px;
+    border-radius: 5px;
+    transition: all .2s;
+    cursor: pointer;
+}
+.service-icon i{
+    font-size: 1.5rem;
+    background-color:rgb(11, 11, 42) ;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.servies-item1:hover , .servies-item2:hover, .servies-item3:hover, .servies-item4:hover{
+    transform: scale(1.1);
+}
+.servies-item1 , .servies-item2, .servies-item3, .servies-item4 h3{
+    color: rgb(11, 11, 42);
+    font-weight: 600;
+}
+.servies-item1 , .servies-item2, .servies-item3, .servies-item4 p{
+    font-size: .8rem;
+    color: #222;
+}
+
+@media (max-width: 768px){
+    .servies-item1 , .servies-item2, .servies-item3, .servies-item4{
+      margin-top: 20px;
+      padding: 10px;
+    }
+}

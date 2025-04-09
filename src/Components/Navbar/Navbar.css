@@ -1,0 +1,82 @@
+.navbar-brand{
+    font-size: 35px;
+    font-weight: 600;
+    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.img-logo{
+    width: 15%;
+    margin-bottom: 10px;
+}
+.active{
+    font-weight: 600;
+}
+.nav-icons{
+    cursor: pointer;
+}
+
+.nav-profileImg{
+  width: 23%;
+  transition: all 0.2s;
+}
+.nav-profileImg:hover{
+    transform: scale(1.2);
+}
+.heart-icon,.cart-icon{
+   position: relative;
+}
+.badge{
+  position: absolute;
+  top: -5%;
+  right: -5%;
+  background-color: rgb(46, 46, 94);
+  color: #fff;
+  border-radius: 50%;
+  font-size: .8rem;
+  font-weight: 600;
+  z-index: 10;
+  width: 15px;
+  height: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-profileImg{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.nav-icons .nav-profileImg{
+    position: relative;
+    z-index: 9;
+}
+.profile-action{
+   position: absolute;
+   top: 105%;
+   left: 88%;
+   width: 140px;
+   z-index: 10;
+   padding: 15px 10px;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+   background-color: rgb(243, 237, 226);
+   cursor: pointer;
+   display: none;
+}
+.show-profileActions{
+    display: block;
+}
+
+@media (max-width: 768px){
+    .profile-action{
+        position: absolute;
+        top: 105%;
+        left: 10%;
+        width: 140px;
+    }
+}
