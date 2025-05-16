@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Helmet } from 'react-helmet'
 import CommonSection from '../CommonSection/CommonSection'
 import { useParams } from 'react-router-dom'
@@ -13,6 +13,10 @@ export default function ProductDetails() {
 
   const { id } = useParams();
   const product = products.find((item) => item.id === id)
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [id]);
 
   const { productName, imgUrl, price, avgRating, reviews , description , category , shortDesc} = product;
 
